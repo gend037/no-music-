@@ -1,0 +1,5 @@
+discord
+requests
+youtube-dl
+discord.py[voice]
+py-trello
