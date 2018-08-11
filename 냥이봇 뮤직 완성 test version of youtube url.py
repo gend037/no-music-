@@ -8,7 +8,7 @@ from discord.voice_client import VoiceClient
 
 startup_extensions = ["Music"]
 BOT_PREFIX = ("")
-TOKEN = "NDM4MzAxMzk5MjUyNzI5ODU2.DinfoA.-CuhzIMWYoUtCBfweU0lBPDwARE"
+TOKEN = "NDc3NDU3OTQyNzQwOTkyMDEx.DlAmXA.q5949JRoED9yZgIOEDT9vLPfb5o"
  
 
 bot = Bot(command_prefix=BOT_PREFIX)
