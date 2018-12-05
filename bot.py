@@ -17,7 +17,7 @@ async def on_ready():
 async def on_message(message):
   if message.content in filter:
      await bot.delete_message(message)
-     await bot.send_message(message.channel."don't say that word man")
+     await bot.send_message(message.channel, "don't say that word man")
 
 @bot.command()
 async def hello():
