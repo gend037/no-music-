@@ -55,7 +55,7 @@ async def cheeki_breeki():
 
 @bot.command()
 async def hi():
-    await.bot.send_message(message.channel, (message.author.id) + "hi"!)
+    await.bot.send_message(message.channel, (message.author.id) "hi"!)
 
 	
 
