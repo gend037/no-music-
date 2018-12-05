@@ -44,12 +44,7 @@ async def cheeki_breeki():
     ]
     await bot.say(random.choice(possible_responses))
 	
-filter = ["fuck","hell","Token"]
-	
-for filter in filter:
-    if filter in message:
-        await bot.send_message(message.channel, "your message has been censored")
-        await bot.delete_message(message)
+
 
 
 
