@@ -13,6 +13,8 @@ TOKEN = "NTE5Nzc1MzIzMTA2MTgxMTQw.DukOUQ.Q_sgMp5ZojcFUBXiVXiagDUv4ME"
 async def on_ready():
 	print('시작!')
 	
+filter = ["fuck", "hell"]
+	
 @bot.event
 async def on_message(message):
   if message.content in filter:
