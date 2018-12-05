@@ -1,9 +1,6 @@
 import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
-from discord.voice_client import VoiceClient
-import asyncio
-import time
 import random
 
 
