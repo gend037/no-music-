@@ -48,7 +48,7 @@ filter = ["fuck","hell","Token"]
 	
 for filter in filter:
     if filter in message:
-        await bot.send_message(message.channel, "{}, your message has been censored.".format(message.author.mention))
+        await bot.send_message(message.channel, "your message has been censored.".format(message.author.mention))
         await bot.delete_message(message)
 
 
