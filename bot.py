@@ -2,9 +2,10 @@ import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
 import random
+from discord.voice_client import VoiceClient
+import asyncio
 
-
-
+bot = commands.Bot("")
 BOT_PREFIX = ("")
 TOKEN = "NTE5Nzc1MzIzMTA2MTgxMTQw.DukOUQ.Q_sgMp5ZojcFUBXiVXiagDUv4ME"
 
