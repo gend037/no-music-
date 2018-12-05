@@ -12,6 +12,12 @@ TOKEN = "NTE5Nzc1MzIzMTA2MTgxMTQw.DukOUQ.Q_sgMp5ZojcFUBXiVXiagDUv4ME"
 @bot.event
 async def on_ready():
 	print('시작!')
+	
+@bot.event
+async def on_message(message):
+  if message.content in filter:
+     await bot.delete_message(message)
+     await bot.send_message(message.channel."don't say that word man")
 
 @bot.command()
 async def hello():
