@@ -34,7 +34,7 @@ async def blyat():
 
 
 @bot.command()
-async def cheeki breeki():
+async def cheeki_breeki():
     possible_responses = [
         'listen to stakler clear sky bandit radio',
         'soviet',
