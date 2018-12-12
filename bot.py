@@ -64,10 +64,7 @@ async def embed():
     )
 
     embed.set_footer(text='What is footer?')
-    embed.set_image(url='https://www.google.co.kr/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwil5aD-5pnfAhWEXbwKHVSEB9UQjRx6BAgBEAU&url=http%3A%2F%2Fblogs.bu.edu%2Fguidedhistory%2Fmoderneurope%2Fkatie-k-2%2F&psig=AOvVaw2S8ZwLcqM5Ea-SDy28WyJK&ust=1544687359148126')		    
-    embed.set_thumbnail(url='https://www.google.co.kr/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwil5aD-5pnfAhWEXbwKHVSEB9UQjRx6BAgBEAU&url=http%3A%2F%2Fblogs.bu.edu%2Fguidedhistory%2Fmoderneurope%2Fkatie-k-2%2F&psig=AOvVaw2S8ZwLcqM5Ea-SDy28WyJK&ust=1544687359148126')
-
-
+    
 
 	
 
