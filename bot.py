@@ -8,7 +8,7 @@ import asyncio
 bot = commands.Bot("")
 BOT_PREFIX = ("")
 TOKEN = "NTE5Nzc1MzIzMTA2MTgxMTQw.DukOUQ.Q_sgMp5ZojcFUBXiVXiagDUv4ME"
-channel = ctx.message.channel
+
 
 @bot.event
 async def on_ready():
