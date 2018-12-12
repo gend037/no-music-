@@ -12,7 +12,8 @@ channel = ctx.message.channel
 
 @bot.event
 async def on_ready():
-	print('시작!')
+       print('시작!')
+       await bot.change_presence(game=discord.Game(name='Geno37이랑 봇 코드 개발중'))
 	
 filter = ["fuck", "hell"]
 	
@@ -53,6 +54,14 @@ async def cheeki_breeki():
 
     ]
     await bot.say(random.choice(possible_responses))
+	
+@bot.command()
+async def embed():
+    embed = discord.Embed(
+    	title = 'Testing Embed',
+	description = 'Just testing',
+	colour = =
+    )
 
 
 
