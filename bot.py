@@ -64,6 +64,8 @@ async def embed():
     )
 
     embed.set_footer(text='What is footer?')
+	
+    await bot.say(embed=embed)
     
 
 	
