@@ -60,7 +60,7 @@ async def embed():
     embed = discord.Embed(
     	title = 'Testing Embed',
 	description = 'Just testing',
-	color = discord.Color.blue()
+	colour = discord.Colour.blue()
     )
 
     embed.set_footer(text='What is footer?')
