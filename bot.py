@@ -53,9 +53,7 @@ async def cheeki_breeki():
     ]
     await bot.say(random.choice(possible_responses))
 
-@bot.command()
-async def hi():
-    await.bot.send_message(message.channel,  f'{message.author.name} "hi"!)
+
 
 	
 
